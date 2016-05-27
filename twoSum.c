@@ -15,7 +15,7 @@ int* twoSum(int nums[], int numsSize, int target)
             {
                 ret[0]=i;
                 ret[1]=j;
-                break;
+               return ret;
             }
         }
     }
