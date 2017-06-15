@@ -1,0 +1,7 @@
+int reverse(int v) {
+        long ret = 0;
+        for(int x = v; x != 0; x/=10)
+            ret = ret*10 +  x%10; 
+        if(ret != (int)ret) return 0; 
+        return ret;
+    }
